@@ -1,0 +1,11 @@
+m1 = int (input("enter marks of student 1 :"))
+m2 = int (input("enter marks of student 2 :"))
+m3 = int (input("enter marks of student 3 :"))
+m4 = int (input("enter marks of student 4:"))
+m5 = int (input("enter marks of student 5 :"))
+total = m1+m2+m3+m4+m5
+average = total/5
+percentage = total/500*100
+print ("total marks=",total)
+print("average marks = ",average)
+print("percentage =", percentage)
